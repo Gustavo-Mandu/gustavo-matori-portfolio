@@ -87,6 +87,6 @@
 @media (max-width: 1050px) {
   .carouselWrapper {
     position: static;
-    padding-top: 40px;
+    margin-top: 40px;
   }
 }
