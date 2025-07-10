@@ -1,0 +1,63 @@
+/* .educationSection {
+  padding: 80px 20px;
+} */
+
+.certificates {
+  margin: 0 auto;
+  height: 800px;
+  background-color: rgb(24, 24, 24);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+  border-left: 5px solid #4CAF50;
+  border-right: 5px solid #4CAF50;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4CAF50 #333;
+}
+
+.certificates::-webkit-scrollbar {
+  width: 10px;
+}
+
+.certificates::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.certificates::-webkit-scrollbar-thumb {
+  background-color: #4CAF50;
+  border-radius: 20px;
+  border: 3px solid #333;
+}
+
+.certificates h2 {
+  color: #00d81d;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 24px;
+
+}
+
+.certificates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certificates li {
+  color: #fff;
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #555;
+}
+
+.certificates li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.certificates a {
+  color: var(--color-primary);
+  margin-left: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}

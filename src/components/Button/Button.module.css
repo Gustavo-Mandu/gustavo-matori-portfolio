@@ -1,0 +1,27 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.outline {
+  background-color: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+.outline:hover {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-primary);
+}

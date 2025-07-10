@@ -1,0 +1,21 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main section {
+  scroll-margin-top: 100px;
+}
+
+.journey {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 850px) {
+  .journey {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

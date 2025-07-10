@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: left;
+  /* padding: 0; */
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.carouselWrapper {
+  position: absolute;
+  right: 25px;
+  top: 220px;
+  /* width: 100%; */
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.carouselWrapper:hover {
+  border: 1px solid green;
+
+}
+
+.greeting {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: clamp(2.25rem, 8vw, 4rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.1;
+}
+
+.title {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-weight: 700;
+  color: #a0a0a0;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.socialLinks a {
+  display: flex;
+  gap: 7px;
+  color: #a0a0a0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: var(--color-primary);
+  transform: translateY(-3px);
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.ctaButtons a Button:nth-child(1) {
+  display: flex;
+}
+
+@media (max-width: 1050px) {
+  .carouselWrapper {
+    position: static;
+    padding-top: 40px;
+  }
+}

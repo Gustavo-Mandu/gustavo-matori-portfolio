@@ -1,0 +1,145 @@
+export const projectsData = [
+  {
+    title: 'Lume - Marketplace sustentável',
+    description: 'Uma plataforma de e-commerce com o objetivo de que pessoas possam comprar e vender produtos sustentáveis.',
+    image: '/projectsCard/telaInicialLume.png',
+    hasGif: true,
+    gif: '/projectsCard/videoLumePortfolio.gif',
+    tags: ['React', 'Vite', 'Figma', 'CSS Modules', 'Tailwind', 'JavaScript', 'HTML5', 'Chart.js', 'Node.js', 'API Rest', 'Java', 'Spring', 'MySQL', 'JWT'],
+    hasUrl: true,
+    liveUrl: 'https://lume-deploy.vercel.app/',
+    githubUrl: 'https://github.com/Lumelluz'
+  },
+  {
+    title: 'Portfólio Pessoal (Este Site)',
+    description: 'Desenvolvi este site do zero para ser minha vitrine profissional, focando em performance com Server Components, interatividade com Client Components (React/Radix UI), e SEO completo. O projeto inclui um carrossel, modais acessíveis e um formulário de contato funcional.',
+    image: '/projectsCard/telaInicialPortfolio.png',
+    gif: null,
+    hasGif: false,
+    tags: ['Next.js (App Router)', 'CSS Modules', 'Framer Motion', 'Radix UI', 'Resend API', 'Vercel'],
+    hasUrl: true,
+    liveUrl: 'http://gustavo-matori-portfolio.vercel.app/',
+    githubUrl: 'https://github.com/Gustavo-Mandu/gustavo-matori-portfolio'
+  },
+  {
+    title: 'Portfólio Fictício',
+    description: 'Um Sistema web de portfólio feito para treinar rotas, react + vite e API do GitHub.',
+    image: '/projectsCard/portfolioFicticio.png',
+    hasGif: false,
+    gif: null,
+    tags: ['React', 'Vite', 'CSS Modules', 'JSX', 'API GitHub'],
+    hasUrl: true,
+    liveUrl: 'https://gustavo-mandu.github.io/portfolio-ficticio-react/',
+    githubUrl: 'https://github.com/Gustavo-Mandu/portfolio-ficticio-react'
+  },
+  {
+    title: 'Music Learning',
+    description: 'O objetivo principal é proporcionar um ambiente lúdico e acessível para que crianças aprendam noções básicas de piano e violão, utilizando recursos interativos e didáticos.',
+    image: '/projectsCard/musicLearning.png',
+    hasGif: false,
+    gif: null,
+    tags: ['HTML5', 'CSS3', 'Bootstrap', 'Firebase', 'PWA', 'JavaScript'],
+    hasUrl: true,
+    liveUrl: 'https://musiclearning182.web.app/',
+    githubUrl: 'https://github.com/Gustavo-Mandu/music-learning'
+  },
+  {
+    title: 'Tradutor',
+    description: 'Tradutor é uma aplicação web que permite traduzir palavras ou frases entre 6 idiomas diferentes de forma prática e rápida.',
+    image: '/projectsCard/tradutor.png',
+    hasGif: false,
+    gif: null,
+    tags: ['React', 'Vite', 'Tailwind', 'MyMemory API', 'JavaScript'],
+    hasUrl: true,
+    liveUrl: 'https://tradutor-six-nu.vercel.app/',
+    githubUrl: 'https://github.com/Gustavo-Mandu/tradutor'
+  },
+  {
+    title: 'Meu portfólio do Figma',
+    description: 'Meu Portfólio de Projetos UI/UX desenvolvidos usando Figma.',
+    image: '/projectsCard/figma.png',
+    hasGif: false,
+    gif: null,
+    tags: ['Figma', 'UI/UX'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/meu-portfolio-figma'
+  },
+  {
+    title: 'AquaLife',
+    description: 'Oferece conteúdos ricos em curiosidades, informações e quizzes para estimular o aprendizado de forma interativa sobre a vida marinha.',
+    image: '/projectsCard/aquaLife.png',
+    hasGif: false,
+    gif: null,
+    tags: ['Java', 'Android Studio', 'Shared Preferences', 'XML', 'Gradle'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/AquaLife'
+  },
+  {
+    title: 'Leitor Evento',
+    description: 'Um aplicativo Android para geração e leitura de QR Codes para eventos, armazenando as informações no Firebase para que administradores tenham acesso ao horário de chegada e saída do usuário, exibindo as informações associadas.',
+    image: '/projectsCard/leitorQRCode.png',
+    hasGif: false,
+    gif: null,
+    tags: ['Java', 'Android Studio', 'Zxing Library', 'Firebase', 'XML', 'Gradle'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/leitor_qrcode'
+  },
+  {
+    title: 'Busca CEP',
+    description: 'Um aplicativo Android que, ao receber um CEP, exibe dados completos do endereço como logradouro, número, bairro, complemento, cidade e estado.',
+    image: '/projectsCard/buscaCEP.png',
+    hasGif: false,
+    gif: null,
+    tags: ['Java', 'Android Studio', 'XML', 'HTTP', 'Gradle'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/BuscaCEP-Android'
+  },
+  {
+    title: 'Mini Projetos',
+    description: 'Diversos mini projetos desenvolvidos com HTML, CSS e JavaScript, hospedados no GitHub Pages, muitos deles baseados em templates do Figma. Ao todo, são mais de 10 projetos.',
+    image: '/projectsCard/miniProjetos.png',
+    hasGif: false,
+    gif: null,
+    tags: ['HTML', 'CSS', 'JavaScript', 'UI/UX'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/'
+  },
+  {
+    title: 'Exercicíos Lógica de Programação',
+    description: 'Diversos exercícos em VisuAlg, Java e JavaScript para aprimorar a lógica com algoritmos.',
+    image: '/projectsCard/exerciciosLogica.png',
+    hasGif: false,
+    gif: null,
+    tags: ['VisuAlg', 'Java', 'JavaScript'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/'
+  },
+  {
+    title: 'Exercicíos Java Udemy',
+    description: 'Códigos em Java das aulas ministradas pela Cod3r',
+    image: '/projectsCard/codigosJava.png',
+    hasGif: false,
+    gif: null,
+    tags: ['Java', 'Eclipse'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/Curso-Java-Cod3r'
+  },
+  {
+    title: 'Exercicíos JavaScript Udemy',
+    description: 'Códigos em JavaScript das aulas ministradas pela Cod3r',
+    image: '/projectsCard/codigosJavaScript.png',
+    hasGif: false,
+    gif: null,
+    tags: ['JavaScript', 'VSCode'],
+    hasUrl: false,
+    liveUrl: '#',
+    githubUrl: 'https://github.com/Gustavo-Mandu/Curso-JavaScript-Cod3r'
+  },
+];

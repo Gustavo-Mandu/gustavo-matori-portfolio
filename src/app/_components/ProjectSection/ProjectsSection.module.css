@@ -1,0 +1,47 @@
+.projects {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  text-align: center;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+.carouselContainer {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1rem;
+  margin: 0 -1rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) var(--color-card-bg);
+}
+
+.carouselContainer::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carouselContainer::-webkit-scrollbar-track {
+  background: var(--color-card-bg);
+  border-radius: 4px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 4px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary);
+}

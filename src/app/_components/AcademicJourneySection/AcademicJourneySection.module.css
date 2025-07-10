@@ -1,0 +1,84 @@
+/* .journey {
+  padding: 100px 0;
+} */
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--color-border);
+  top: 0;
+  bottom: 0;
+  left: 19px;
+}
+
+.timelineItem {
+  padding: 1rem 0 2rem 60px;
+  position: relative;
+}
+
+.iconWrapper {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.timelineContent {
+  position: relative;
+}
+
+.timelineContent h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+  color: var(--color-text);
+}
+
+.institution {
+  font-size: 1rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.period {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  margin-bottom: 1rem;
+}
+
+.certificateLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #a0a0a0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.certificateLink:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
