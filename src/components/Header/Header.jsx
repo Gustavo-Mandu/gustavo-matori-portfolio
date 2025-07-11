@@ -8,11 +8,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const navLinks = [
+  { href: "/mapa-de-carreira", label: "Mapa de Carreira" },
   { href: "/#about", label: "Sobre" },
   { href: "/#journey", label: "Jornada" },
   { href: "/#projects", label: "Projetos" },
   { href: "/#contact", label: "Contato" },
-  { href: "/mapa-de-carreira", label: "Mapa de Carreira" },
 ];
 
 export const Header = () => {
